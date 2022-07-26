@@ -1,3 +1,4 @@
 #FROM registry.cn-hangzhou.aliyuncs.com/hxly/chartmuseum:alpine-200
-FROM alpine:latest
+#FROM alpine:latest
+FROM registry.cn-hangzhou.aliyuncs.com/hxly/chartmuseum:alpine-3.15-arm64
 RUN apk add --no-cache cifs-utils ca-certificates
